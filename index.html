@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giphy!</title>
+
+    <style>
+      body {
+        background-color: rgb(16, 103, 216);
+      }
+
+      .container {
+        padding-top: 7%;
+        text-align: center;
+      }
+
+      #userInput {
+        margin-bottom: 5%;
+        padding: 15px 30px;
+      }
+
+      #btn {
+        padding: 15px 30px;
+        background-color: rgb(81, 197, 81);
+      }
+
+      h1 {
+        text-align: center;
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <br />
+    <h1>Search Giphy!</h1>
+    <div class="container">
+      <input type="text" placeholder="Search Giphy" id="userInput" />
+      <button id="btn" onclick="findGiphy()">Find</button>
+      <div id="app"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
